@@ -1,0 +1,29 @@
+{
+  "name": "umaas-docs",
+  "version": "1.0.0",
+  "description": "umaas documentation",
+  "main": "index.html",
+  "dependencies": {
+    "gulp-asciidoctor": "^1.0.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldoyudo/umaas-docs.git"
+  },
+  "keywords": [
+    "umaas",
+    "docs"
+  ],
+  "author": "Gerald Oyudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geraldoyudo/umaas-docs/issues"
+  },
+  "homepage": "https://github.com/geraldoyudo/umaas-docs#readme"
+}
