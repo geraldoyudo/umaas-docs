@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d57e88a182733944e5e88:4212' GET 'http://{serverHost}:{port}/domain/userGroups' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

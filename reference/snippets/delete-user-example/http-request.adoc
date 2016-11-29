@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+DELETE /domain/appUsers/583d57bb8a182733944e5dfb HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3YmI4YTE4MjczMzk0NGU1ZGY5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,73 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 1837
+
+{
+  "_embedded" : {
+    "roleMappings" : [ {
+      "externalId" : "2b20c6b2-363e-4b23-b307-5a0e820f5206",
+      "meta" : { },
+      "type" : "USER",
+      "key" : "583d58268a182733944e5fda",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdb"
+        },
+        "roleMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdb"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdb/role"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdb/domain"
+        }
+      }
+    }, {
+      "externalId" : "612bd373-f38f-42ce-b618-29cb258254ec",
+      "meta" : { },
+      "type" : "USER",
+      "key" : "583d58268a182733944e5fd9",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdc"
+        },
+        "roleMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdc"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdc/role"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58268a182733944e5fdc/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings"
+    },
+    "profile" : {
+      "href" : "http://{serverHost}:{port}/domain/profile/roleMappings"
+    },
+    "search" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

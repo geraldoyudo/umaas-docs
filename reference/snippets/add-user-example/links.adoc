@@ -1,0 +1,13 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`appUser`
+|same as self
+
+|`domain`
+|link to the user's domain
+
+|===

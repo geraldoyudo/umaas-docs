@@ -1,0 +1,219 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 6762
+
+{
+  "_embedded" : {
+    "groups" : [ {
+      "externalId" : "36866688-4cc6-4898-84d6-03eaf88fe641",
+      "meta" : { },
+      "name" : "group 0",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5a"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5a"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5a/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5a/domain"
+        }
+      }
+    }, {
+      "externalId" : "c4c9457a-8621-4354-a538-402b7bffba8a",
+      "meta" : { },
+      "name" : "group 1",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5b"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5b"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5b/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5b/domain"
+        }
+      }
+    }, {
+      "externalId" : "7ac1ff3e-cab4-44a9-a20d-8e26d3e999d3",
+      "meta" : { },
+      "name" : "group 2",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5c"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5c"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5c/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5c/domain"
+        }
+      }
+    }, {
+      "externalId" : "f896000b-5093-4e14-96c1-1ae63e3228ea",
+      "meta" : { },
+      "name" : "group 3",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5d"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5d"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5d/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5d/domain"
+        }
+      }
+    }, {
+      "externalId" : "ca747c59-1c54-4873-bcdd-d2967a4d7905",
+      "meta" : { },
+      "name" : "group 4",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5e"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5e"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5e/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5e/domain"
+        }
+      }
+    }, {
+      "externalId" : "7912d61f-ad4e-4e04-a57d-ec6074d8393d",
+      "meta" : { },
+      "name" : "group 5",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5f"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5f"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5f/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e5f/domain"
+        }
+      }
+    }, {
+      "externalId" : "c81fe3ca-73ca-481b-a077-7ccb19ef58d1",
+      "meta" : { },
+      "name" : "group 6",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e60"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e60"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e60/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e60/domain"
+        }
+      }
+    }, {
+      "externalId" : "4ca1004e-a598-440b-8e36-e27bf1deaef3",
+      "meta" : { },
+      "name" : "group 7",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e61"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e61"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e61/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e61/domain"
+        }
+      }
+    }, {
+      "externalId" : "1e53ae26-a1e4-492d-a5e2-d8c49155f36a",
+      "meta" : { },
+      "name" : "group 8",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e62"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e62"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e62/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e62/domain"
+        }
+      }
+    }, {
+      "externalId" : "a35d1b03-b8fc-4dfa-b234-3056a6e756c3",
+      "meta" : { },
+      "name" : "group 9",
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e63"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e63"
+        },
+        "parent" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e63/parent"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/groups/583d57de8a182733944e5e63/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 10,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/groups/583d57db8a182733944e5e4e HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZGI4YTE4MjczMzk0NGU1ZTRjOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 68
+
+{"domain":"/domain/domains/583d57da8a182733944e5e4b","name":"admin"}
+----

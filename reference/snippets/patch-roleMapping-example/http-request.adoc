@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/roleMappings/583d581a8a182733944e5f9a HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MWE4YTE4MjczMzk0NGU1Zjk1OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 49
+
+{"role":"/domain/roles/583d581a8a182733944e5f96"}
+----

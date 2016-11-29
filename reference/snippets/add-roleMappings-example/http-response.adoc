@@ -1,0 +1,34 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/roleMappings/583d58258a182733944e5fd4
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 615
+
+{
+  "externalId" : "931e8543-3956-4a8f-8125-caac913cec49",
+  "meta" : { },
+  "type" : "USER",
+  "key" : "583d58258a182733944e5fce",
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58258a182733944e5fd4"
+    },
+    "roleMapping" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58258a182733944e5fd4"
+    },
+    "role" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58258a182733944e5fd4/role"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d58258a182733944e5fd4/domain"
+    }
+  }
+}
+----

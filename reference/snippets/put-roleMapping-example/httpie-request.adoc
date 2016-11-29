@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"role":"domain/roles/583d58198a182733944e5f8d","meta":{"key":"random"},"externalId":"rm-101"}' | http --auth '583d58198a182733944e5f8c:4212' PUT 'http://{serverHost}:{port}/domain/roleMappings/583d58198a182733944e5f91' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

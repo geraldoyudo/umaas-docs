@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userGroups/583d57f28a182733944e5ead' -i -u '583d57f28a182733944e5ea9:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

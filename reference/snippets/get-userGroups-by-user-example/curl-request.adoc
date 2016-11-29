@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userGroups/search/findByUserId?userId=583d57f78a182733944e5ec4?userId=583d57f78a182733944e5ec4' -i -u '583d57f78a182733944e5ec1:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

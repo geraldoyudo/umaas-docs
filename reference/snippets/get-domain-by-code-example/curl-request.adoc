@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domains/search/findByCode?code=1234?code=1234' -i -u '583d58038a182733944e5f04:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

@@ -1,0 +1,33 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cf8a182733944e5e22
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 630
+
+{
+  "externalId" : "21658d26-74d4-4779-a82b-e8f2cb15814f",
+  "meta" : { },
+  "entityType" : "com.gerald.umaas.domain.entities.AppUser",
+  "entityId" : "ALL",
+  "priviledge" : "ALL",
+  "enforced" : true,
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cf8a182733944e5e22"
+    },
+    "domainAccessCodeMapping" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cf8a182733944e5e22"
+    },
+    "accessCode" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cf8a182733944e5e22/accessCode"
+    }
+  }
+}
+----

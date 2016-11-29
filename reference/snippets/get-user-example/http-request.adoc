@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/appUsers/583d57b38a182733944e5ddf HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3YjM4YTE4MjczMzk0NGU1ZGRkOjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d58128a182733944e5f5c:4212' GET 'http://{serverHost}:{port}/domain/fields/search/findByDomain?domain=583d58128a182733944e5f5b' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

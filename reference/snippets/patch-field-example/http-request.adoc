@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/fields/583d58118a182733944e5f51 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MTE4YTE4MjczMzk0NGU1ZjRmOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 71
+
+{"domain":"/domain/domains/583d58108a182733944e5f4e","name":"playname"}
+----

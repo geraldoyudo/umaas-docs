@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/appUsers/583d57b78a182733944e5dec HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3Yjc4YTE4MjczMzk0NGU1ZGVhOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 288
+
+{"emailVerified":"true","password":"4321","phoneNumber":"+2348078229931","meta":{"serialNo":0},"domain":"/domain/domains/583d57b68a182733944e5de9","externalId":"myCustomId0000","phoneNumberVerified":"true","email":"smith_0@mail.com","properties":{"nickname":"micky"},"username":"smith_o"}
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http GET 'http://{serverHost}:{port}/domain' 'Accept:application/hal+json'
+----

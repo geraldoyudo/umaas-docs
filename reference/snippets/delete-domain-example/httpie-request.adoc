@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d58018a182733944e5ef3:4212' DELETE 'http://{serverHost}:{port}/domain/domains/583d58008a182733944e5ef2' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

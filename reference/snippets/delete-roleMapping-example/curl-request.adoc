@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/roleMappings/583d58238a182733944e5fc7' -i -u '583d58238a182733944e5fc2:4212' -X DELETE -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

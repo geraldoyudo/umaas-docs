@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/roles/583d57638a182733944e5cab HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3NjM4YTE4MjczMzk0NGU1Y2E5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,43 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/appUsers/583d58b48a182740f461d5e0
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 788
+
+{
+  "externalId" : "23eb7cb0-a523-48b1-8da2-786e065639d6",
+  "meta" : { },
+  "username" : "gerald_oyudo",
+  "password" : "1234",
+  "email" : "gerald_oyudo@hotmail.com",
+  "phoneNumber" : "+2348078229930",
+  "emailVerified" : false,
+  "phoneNumberVerified" : false,
+  "disabled" : false,
+  "locked" : false,
+  "credentialsExpired" : false,
+  "properties" : {
+    "nickname" : "Jerry"
+  },
+  "groups" : [ ],
+  "roles" : [ ],
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d58b48a182740f461d5e0"
+    },
+    "appUser" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d58b48a182740f461d5e0"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d58b48a182740f461d5e0/domain"
+    }
+  }
+}
+----

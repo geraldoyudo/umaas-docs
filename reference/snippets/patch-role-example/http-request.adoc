@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/roles/583d575c8a182733944e5c91 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3NWM4YTE4MjczMzk0NGU1YzhmOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 68
+
+{"domain":"/domain/domains/583d575b8a182733944e5c8e","name":"admin"}
+----

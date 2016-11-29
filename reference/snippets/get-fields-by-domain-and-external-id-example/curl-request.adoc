@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/fields/search/findByDomainAndExternalId?domain=583d58138a182733944e5f68&externalId=0a5c816b-8950-436b-947e-49bc74c80eb4?domain=583d58138a182733944e5f68&externalId=0a5c816b-8950-436b-947e-49bc74c80eb4' -i -u '583d58148a182733944e5f69:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

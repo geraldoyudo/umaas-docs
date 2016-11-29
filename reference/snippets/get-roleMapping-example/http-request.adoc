@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/roleMappings/583d581e8a182733944e5fac HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MWU4YTE4MjczMzk0NGU1ZmE3OjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/domainAccessCodeMappings/583d57cd8a182733944e5e19 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3Y2Q4YTE4MjczMzk0NGU1ZTE4OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 19
+
+{"entityId":"NONE"}
+----

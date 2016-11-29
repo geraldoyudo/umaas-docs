@@ -1,0 +1,8 @@
+./domain/userFields/{userFieldId}
+|===
+|Parameter|Description
+
+|`userFieldId`
+|The userField id
+
+|===

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d58268a182733944e5fd6:4212' GET 'http://{serverHost}:{port}/domain/roleMappings' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

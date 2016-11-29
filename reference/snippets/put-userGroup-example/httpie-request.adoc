@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"meta":{"key":"random"},"externalId":"ug-101"}' | http --auth '583d57f48a182733944e5eb1:4212' PUT 'http://{serverHost}:{port}/domain/userGroups/583d57f48a182733944e5eb5' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

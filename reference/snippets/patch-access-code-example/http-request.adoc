@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/domainAccessCodes/583d57978a182733944e5d64 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3OTc4YTE4MjczMzk0NGU1ZDY0OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 22
+
+{"code":"8323da38233"}
+----

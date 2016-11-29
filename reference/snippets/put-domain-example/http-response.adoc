@@ -1,0 +1,33 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/domains/583d58088a182733944e5f20
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 406
+
+{
+  "externalId" : null,
+  "meta" : {
+    "serial" : 323
+  },
+  "name" : null,
+  "code" : "my-code-00",
+  "properties" : {
+    "url" : "http://sample.test.com"
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domains/583d58088a182733944e5f20"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/domains/583d58088a182733944e5f20"
+    }
+  }
+}
+----

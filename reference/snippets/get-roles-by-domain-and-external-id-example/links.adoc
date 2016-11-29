@@ -1,0 +1,13 @@
+|===
+|Relation|Description
+
+|`self`
+|Link to the resource
+
+|`role`
+|Link to the role
+
+|`domain`
+|Link to the role's domain
+
+|===

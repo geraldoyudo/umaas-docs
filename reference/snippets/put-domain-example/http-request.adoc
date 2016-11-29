@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/domains/583d58088a182733944e5f20 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MDg4YTE4MjczMzk0NGU1ZjIxOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 89
+
+{"code":"my-code-00","meta":{"serial":323},"properties":{"url":"http://sample.test.com"}}
+----

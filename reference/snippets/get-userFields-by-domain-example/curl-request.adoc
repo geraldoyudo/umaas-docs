@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userFields/search/findByDomain?domain=583d577b8a182733944e5cf4?domain=583d577b8a182733944e5cf4' -i -u '583d577c8a182733944e5cf5:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

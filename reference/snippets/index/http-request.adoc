@@ -1,0 +1,7 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain HTTP/1.1
+Accept: application/hal+json
+Host: {serverHost}:{port}
+
+----

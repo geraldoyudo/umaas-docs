@@ -1,0 +1,34 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/groups/583d57d48a182733944e5e2d
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 570
+
+{
+  "externalId" : "1983baa3-c05e-4e9c-a06c-891bc494d70d",
+  "meta" : { },
+  "name" : "admin",
+  "roles" : null,
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57d48a182733944e5e2d"
+    },
+    "group" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57d48a182733944e5e2d"
+    },
+    "parent" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57d48a182733944e5e2d/parent"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57d48a182733944e5e2d/domain"
+    }
+  }
+}
+----

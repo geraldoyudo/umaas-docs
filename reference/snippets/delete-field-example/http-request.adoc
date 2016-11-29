@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+DELETE /domain/fields/583d580d8a182733944e5f41 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MGQ4YTE4MjczMzk0NGU1ZjNmOjQyMTI=
+Host: {serverHost}:{port}
+
+----

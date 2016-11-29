@@ -1,0 +1,10 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`domainAccessCode`
+|link to resource
+
+|===

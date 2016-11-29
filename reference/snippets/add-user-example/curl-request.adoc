@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/appUsers' -i -u '583d58b38a182740f461d5dd:4212' -X POST -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"password":"1234","phoneNumber":"+2348078229930","domain":"/domain/domains/583d58b28a182740f461d5dc","email":"gerald_oyudo@hotmail.com","properties":{"nickname":"Jerry"},"username":"gerald_oyudo"}'
+----

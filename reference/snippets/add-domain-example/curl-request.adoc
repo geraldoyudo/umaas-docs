@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domains' -i -u '583d58028a182733944e5f00:4212' -X POST -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"code":"1111","name":"test.domain.com","properties":{"url":"http://test.domain.com"}}'
+----

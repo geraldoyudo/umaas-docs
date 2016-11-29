@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|the field name
+
+|`meta`
+|`Object`
+|additional meta-data for the field
+
+|`externalId`
+|`String`
+|A fully customizable, unique field field id that can be used for search queries
+
+|`type`
+|`String`
+|The type of field
+
+|`mandatory`
+|`Boolean`
+|Wheter the field should be compulsory (true/false)
+
+|`registrationItem`
+|`Boolean`
+|Whether the field should appear during registration
+
+|`properties`
+|`Object`
+|Other properties relevant to the field type
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

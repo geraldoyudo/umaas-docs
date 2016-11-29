@@ -1,0 +1,8 @@
+./domain/roleMappings/{roleMappingId}
+|===
+|Parameter|Description
+
+|`roleMappingId`
+|The roleMapping id
+
+|===

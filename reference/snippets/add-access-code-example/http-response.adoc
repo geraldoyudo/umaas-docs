@@ -1,0 +1,31 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/domainAccessCodes/583d57928a182733944e5d55
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 452
+
+{
+  "externalId" : "0aa85fb0-4ea4-49aa-b8ff-0945791ea960",
+  "meta" : { },
+  "code" : "33333",
+  "expiryDate" : null,
+  "notExpired" : true,
+  "notLocked" : true,
+  "enabled" : true,
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d57928a182733944e5d55"
+    },
+    "domainAccessCode" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d57928a182733944e5d55"
+    }
+  }
+}
+----

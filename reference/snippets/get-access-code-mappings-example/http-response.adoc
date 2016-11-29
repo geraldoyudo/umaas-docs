@@ -1,0 +1,125 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 3866
+
+{
+  "_embedded" : {
+    "domainAccessCodeMappings" : [ {
+      "externalId" : "a37fd3ca-a1cd-4e90-b31c-fb7dea50caad",
+      "meta" : { },
+      "entityType" : "Group",
+      "entityId" : "ALL",
+      "priviledge" : "NONE",
+      "enforced" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e07"
+        },
+        "domainAccessCodeMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e07"
+        },
+        "accessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e07/accessCode"
+        }
+      }
+    }, {
+      "externalId" : "a6e2f65d-fd23-42e7-8589-ce5f0f9472b2",
+      "meta" : { },
+      "entityType" : "DomainAccessCodeMapping",
+      "entityId" : "ALL",
+      "priviledge" : "UPDATE",
+      "enforced" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e08"
+        },
+        "domainAccessCodeMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e08"
+        },
+        "accessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e08/accessCode"
+        }
+      }
+    }, {
+      "externalId" : "d720afee-8a68-4286-84e6-b135c5b6554b",
+      "meta" : { },
+      "entityType" : "Field",
+      "entityId" : "ALL",
+      "priviledge" : "ADD",
+      "enforced" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e09"
+        },
+        "domainAccessCodeMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e09"
+        },
+        "accessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e09/accessCode"
+        }
+      }
+    }, {
+      "externalId" : "33964fd8-4bbb-4d4d-972f-e2bdea8f05d8",
+      "meta" : { },
+      "entityType" : "Domain",
+      "entityId" : "ALL",
+      "priviledge" : "ADD",
+      "enforced" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0a"
+        },
+        "domainAccessCodeMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0a"
+        },
+        "accessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0a/accessCode"
+        }
+      }
+    }, {
+      "externalId" : "417b0668-02ba-4a4b-b4b0-88b1d3cf2ce1",
+      "meta" : { },
+      "entityType" : "Role",
+      "entityId" : "ALL",
+      "priviledge" : "ADD",
+      "enforced" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0b"
+        },
+        "domainAccessCodeMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0b"
+        },
+        "accessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57c28a182733944e5e0b/accessCode"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings"
+    },
+    "profile" : {
+      "href" : "http://{serverHost}:{port}/domain/profile/domainAccessCodeMappings"
+    },
+    "search" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 5,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"code":"32233344","meta":{"label":"executive"}}' | http --auth '583d57908a182733944e5d46:4212' PUT 'http://{serverHost}:{port}/domain/domainAccessCodes/583d57908a182733944e5d46' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

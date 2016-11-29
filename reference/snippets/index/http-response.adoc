@@ -1,0 +1,60 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 1436
+
+{
+  "_links" : {
+    "roles" : {
+      "href" : "http://{serverHost}:{port}/domain/roles{?page,size,sort}",
+      "templated" : true
+    },
+    "domainAccessCodeMappings" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodeMappings{?page,size,sort}",
+      "templated" : true
+    },
+    "roleMappings" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings{?page,size,sort}",
+      "templated" : true
+    },
+    "groups" : {
+      "href" : "http://{serverHost}:{port}/domain/groups{?page,size,sort}",
+      "templated" : true
+    },
+    "userFields" : {
+      "href" : "http://{serverHost}:{port}/domain/userFields{?page,size,sort}",
+      "templated" : true
+    },
+    "domains" : {
+      "href" : "http://{serverHost}:{port}/domain/domains{?page,size,sort}",
+      "templated" : true
+    },
+    "userGroups" : {
+      "href" : "http://{serverHost}:{port}/domain/userGroups{?page,size,sort}",
+      "templated" : true
+    },
+    "fields" : {
+      "href" : "http://{serverHost}:{port}/domain/fields{?page,size,sort}",
+      "templated" : true
+    },
+    "appUsers" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers{?page,size,sort}",
+      "templated" : true
+    },
+    "domainAccessCodes" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodes{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://{serverHost}:{port}/domain/profile"
+    }
+  }
+}
+----

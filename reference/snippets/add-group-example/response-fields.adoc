@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|the group name
+
+|`meta`
+|`Object`
+|additional meta-data for the group
+
+|`externalId`
+|`String`
+|A fully customizable, unique field group id that can be used for search queries
+
+|`roles`
+|`Null`
+|Domain defined roles that the group has.
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

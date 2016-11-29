@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`meta`
+|`Object`
+|additional meta-data for the user
+
+|`externalId`
+|`String`
+|A fully customizable, unique group user id that can be used for search queries
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

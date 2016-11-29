@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/groups/583d57db8a182733944e5e4e' -i -u '583d57db8a182733944e5e4c:4212' -X PUT -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"domain":"/domain/domains/583d57da8a182733944e5e4b","name":"admin"}'
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/roleMappings/search/findByKeyAndRoleId?key=583d58178a182733944e5f87&roleId=583d58178a182733944e5f84?key=583d58178a182733944e5f87&roleId=583d58178a182733944e5f84' -i -u '583d58178a182733944e5f83:4212' -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/groups/583d57d98a182733944e5e41 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZDk4YTE4MjczMzk0NGU1ZTNmOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 68
+
+{"domain":"/domain/domains/583d57d88a182733944e5e3e","name":"admin"}
+----

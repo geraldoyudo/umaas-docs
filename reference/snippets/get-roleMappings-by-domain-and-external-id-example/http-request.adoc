@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/roleMappings/search/findByDomainAndExternalId?externalId=8da1124b-48f9-47c6-abe8-653871163c6a&domain=583d58208a182733944e5fb8&externalId=8da1124b-48f9-47c6-abe8-653871163c6a&domain=583d58208a182733944e5fb8 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MjE4YTE4MjczMzk0NGU1ZmI5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

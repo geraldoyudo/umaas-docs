@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/userGroups/583d57f48a182733944e5eb5 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZjQ4YTE4MjczMzk0NGU1ZWIxOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 47
+
+{"meta":{"key":"random"},"externalId":"ug-101"}
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/fields HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MGI4YTE4MjczMzk0NGU1ZjNiOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 87
+
+{"domain":"/domain/domains/583d580b8a182733944e5f3a","name":"nickname","type":"string"}
+----

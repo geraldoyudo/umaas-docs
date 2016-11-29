@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/groups/search/findByDomainAndExternalId?domain=583d57e08a182733944e5e65&externalId=b376ccc9-aad4-44be-8bbc-547d8d5e9d96&domain=583d57e08a182733944e5e65&externalId=b376ccc9-aad4-44be-8bbc-547d8d5e9d96 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZTE4YTE4MjczMzk0NGU1ZTY2OjQyMTI=
+Host: {serverHost}:{port}
+
+----

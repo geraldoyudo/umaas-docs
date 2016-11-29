@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/appUsers HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4YjM4YTE4Mjc0MGY0NjFkNWRkOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 197
+
+{"password":"1234","phoneNumber":"+2348078229930","domain":"/domain/domains/583d58b28a182740f461d5dc","email":"gerald_oyudo@hotmail.com","properties":{"nickname":"Jerry"},"username":"gerald_oyudo"}
+----

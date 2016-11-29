@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"group":"/domain/groups/583d57fc8a182733944e5ed2"}' | http --auth '583d57fc8a182733944e5ed1:4212' PATCH 'http://{serverHost}:{port}/domain/userGroups/583d57fc8a182733944e5ed5' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

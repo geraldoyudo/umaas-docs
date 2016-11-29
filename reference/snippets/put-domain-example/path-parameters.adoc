@@ -1,0 +1,8 @@
+./domain/domains/{domainId}
+|===
+|Parameter|Description
+
+|`domainId`
+|The domain's id
+
+|===

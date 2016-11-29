@@ -1,0 +1,67 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 1669
+
+{
+  "_embedded" : {
+    "roleMappings" : [ {
+      "externalId" : "b1563448-27e4-4f93-b54d-314cf8215cf3",
+      "meta" : { },
+      "type" : "USER",
+      "key" : "583d581c8a182733944e5fa2",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa3"
+        },
+        "roleMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa3"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa3/role"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa3/domain"
+        }
+      }
+    }, {
+      "externalId" : "e910532e-adf6-4bbe-be29-2125b53aed18",
+      "meta" : { },
+      "type" : "USER",
+      "key" : "583d581c8a182733944e5fa1",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa4"
+        },
+        "roleMapping" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa4"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa4/role"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581c8a182733944e5fa4/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

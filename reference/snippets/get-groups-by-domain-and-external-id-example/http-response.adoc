@@ -1,0 +1,33 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 571
+
+{
+  "externalId" : "b376ccc9-aad4-44be-8bbc-547d8d5e9d96",
+  "meta" : { },
+  "name" : "group 0",
+  "roles" : [ ],
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57e18a182733944e5e67"
+    },
+    "group" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57e18a182733944e5e67"
+    },
+    "parent" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57e18a182733944e5e67/parent"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/groups/583d57e18a182733944e5e67/domain"
+    }
+  }
+}
+----

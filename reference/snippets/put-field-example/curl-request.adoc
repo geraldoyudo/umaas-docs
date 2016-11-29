@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/fields/583d580a8a182733944e5f30' -i -u '583d580a8a182733944e5f2e:4212' -X PUT -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"meta":{"serial":3},"domain":"/domain/domains/583d58098a182733944e5f2d","name":"nickname","externalId":"field-01","type":"string"}'
+----

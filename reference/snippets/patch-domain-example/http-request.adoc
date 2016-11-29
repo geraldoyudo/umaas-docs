@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/domains/583d57fd8a182733944e5ed8 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZmU4YTE4MjczMzk0NGU1ZWQ5OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 62
+
+{"name":"domain.com","properties":{"url":"http://sample.com"}}
+----

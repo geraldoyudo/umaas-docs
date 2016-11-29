@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+DELETE /domain/userGroups/583d57fa8a182733944e5ecd HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZmE4YTE4MjczMzk0NGU1ZWM5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

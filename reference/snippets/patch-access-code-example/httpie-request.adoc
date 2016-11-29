@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"code":"8323da38233"}' | http --auth '583d57978a182733944e5d64:4212' PATCH 'http://{serverHost}:{port}/domain/domainAccessCodes/583d57978a182733944e5d64' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

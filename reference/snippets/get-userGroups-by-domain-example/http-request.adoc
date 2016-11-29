@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/userGroups/search/findByDomain?domain=583d57f58a182733944e5eb8&domain=583d57f58a182733944e5eb8 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZjY4YTE4MjczMzk0NGU1ZWI5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

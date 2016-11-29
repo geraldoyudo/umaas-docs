@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userGroups/583d57fc8a182733944e5ed5' -i -u '583d57fc8a182733944e5ed1:4212' -X PATCH -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"group":"/domain/groups/583d57fc8a182733944e5ed2"}'
+----

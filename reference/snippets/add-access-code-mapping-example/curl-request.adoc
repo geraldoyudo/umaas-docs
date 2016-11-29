@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domainAccessCodeMappings' -i -u '583d57cf8a182733944e5e1f:4212' -X POST -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"enforced":true,"entityType":"com.gerald.umaas.domain.entities.AppUser","accessCode":"domains/domainAccessCodes/583d57cf8a182733944e5e1f","entityId":"ALL","priviledge":"ALL"}'
+----

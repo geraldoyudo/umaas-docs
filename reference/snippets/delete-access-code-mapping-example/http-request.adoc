@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+DELETE /domain/domainAccessCodeMappings/583d57ca8a182733944e5e12 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3Y2E4YTE4MjczMzk0NGU1ZTExOjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d575f8a182733944e5c9c:4212' GET 'http://{serverHost}:{port}/domain/roles/search/findByDomainAndExternalId?domain=583d575e8a182733944e5c9b&externalId=d68439d8-4f2a-4d5a-9b8e-f4f6a84dcc43' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

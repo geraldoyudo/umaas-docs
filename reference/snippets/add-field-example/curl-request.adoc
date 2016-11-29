@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/fields' -i -u '583d580b8a182733944e5f3b:4212' -X POST -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"domain":"/domain/domains/583d580b8a182733944e5f3a","name":"nickname","type":"string"}'
+----

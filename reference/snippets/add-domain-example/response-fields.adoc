@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|the domain's domainname
+
+|`code`
+|`String`
+|the domain code
+
+|`properties`
+|`Object`
+|Additional properties of the domain
+
+|`externalId`
+|`String`
+|fully customizable id of the domain
+
+|`meta`
+|`Object`
+|meta data of domain
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

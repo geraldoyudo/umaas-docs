@@ -1,0 +1,8 @@
+./domain/domainAccessCodeMappings/{accessCodeMappingId}
+|===
+|Parameter|Description
+
+|`accessCodeMappingId`
+|The access code mapping id
+
+|===

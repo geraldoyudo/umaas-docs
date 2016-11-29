@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"enforced":true,"code":"32233344","entityType":"com.gerald.umaas.domain.entities.AppUser","meta":{"label":"executive"},"accessCode":"domains/domainAccessCodes/583d57d18a182733944e5e24","entityId":"ALL","priviledge":"ALL"}' | http --auth '583d57d18a182733944e5e24:4212' PUT 'http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57d18a182733944e5e25' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

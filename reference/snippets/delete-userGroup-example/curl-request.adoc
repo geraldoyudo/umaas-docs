@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userGroups/583d57fa8a182733944e5ecd' -i -u '583d57fa8a182733944e5ec9:4212' -X DELETE -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

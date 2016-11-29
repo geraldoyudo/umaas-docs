@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/fields/583d580a8a182733944e5f30 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MGE4YTE4MjczMzk0NGU1ZjJlOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 131
+
+{"meta":{"serial":3},"domain":"/domain/domains/583d58098a182733944e5f2d","name":"nickname","externalId":"field-01","type":"string"}
+----

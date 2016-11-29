@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userFields/583d578b8a182733944e5d32' -i -u '583d578b8a182733944e5d2e:4212' -X PATCH -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"value":"something"}'
+----

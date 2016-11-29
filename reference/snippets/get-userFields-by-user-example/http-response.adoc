@@ -1,0 +1,71 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 1810
+
+{
+  "_embedded" : {
+    "userFields" : [ {
+      "externalId" : "a88a1fb3-7033-4ead-adb7-8341ba29a4e8",
+      "meta" : { },
+      "value" : "jerry",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2a"
+        },
+        "userField" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2a"
+        },
+        "user" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2a/user"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2a/field"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2a/domain"
+        }
+      }
+    }, {
+      "externalId" : "422a7ca8-9d50-4ab4-b458-65133ed47560",
+      "meta" : { },
+      "value" : 11,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2b"
+        },
+        "userField" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2b"
+        },
+        "user" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2b/user"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2b/field"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/userFields/583d57898a182733944e5d2b/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/userFields/search/findByUserId"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

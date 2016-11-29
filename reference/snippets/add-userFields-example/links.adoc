@@ -1,0 +1,19 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`user`
+|link to user
+
+|`field`
+|link to field
+
+|`userField`
+|same as self
+
+|`domain`
+|link to the domain of the user field entry
+
+|===

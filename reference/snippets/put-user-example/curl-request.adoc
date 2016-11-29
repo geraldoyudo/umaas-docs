@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/appUsers/583d57b78a182733944e5dec' -i -u '583d57b78a182733944e5dea:4212' -X PUT -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"emailVerified":"true","password":"4321","phoneNumber":"+2348078229931","meta":{"serialNo":0},"domain":"/domain/domains/583d57b68a182733944e5de9","externalId":"myCustomId0000","phoneNumberVerified":"true","email":"smith_0@mail.com","properties":{"nickname":"micky"},"username":"smith_o"}'
+----

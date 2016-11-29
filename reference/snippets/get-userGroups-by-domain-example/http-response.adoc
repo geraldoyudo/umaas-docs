@@ -1,0 +1,69 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 1763
+
+{
+  "_embedded" : {
+    "userGroups" : [ {
+      "externalId" : "b6373317-1c8e-4e58-9406-ef9efb2cfffa",
+      "meta" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebd"
+        },
+        "userGroup" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebd"
+        },
+        "user" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebd/user"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebd/group"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebd/domain"
+        }
+      }
+    }, {
+      "externalId" : "df1fe1c3-f054-4943-a5ca-7ff1367a1489",
+      "meta" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebe"
+        },
+        "userGroup" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebe"
+        },
+        "user" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebe/user"
+        },
+        "group" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebe/group"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/userGroups/583d57f68a182733944e5ebe/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/userGroups/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

@@ -1,0 +1,189 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 5202
+
+{
+  "_embedded" : {
+    "domains" : [ {
+      "externalId" : "1a0f6978-7aad-4066-8fc8-c1bf4dae8389",
+      "meta" : { },
+      "name" : "TEST",
+      "code" : "1234",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee5"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee5"
+        }
+      }
+    }, {
+      "externalId" : "b60ea03d-762b-43f3-af5e-606a4aacf290",
+      "meta" : { },
+      "name" : "domain0",
+      "code" : "12340",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee8"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee8"
+        }
+      }
+    }, {
+      "externalId" : "face3711-b1eb-408b-943f-45fd2ba5df2f",
+      "meta" : { },
+      "name" : "domain1",
+      "code" : "12341",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee9"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ee9"
+        }
+      }
+    }, {
+      "externalId" : "5c86566e-f729-4755-b21c-f971a01cde6f",
+      "meta" : { },
+      "name" : "domain2",
+      "code" : "12342",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eea"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eea"
+        }
+      }
+    }, {
+      "externalId" : "a5fc3d11-4d34-4e24-a1bc-2e995b4578ae",
+      "meta" : { },
+      "name" : "domain3",
+      "code" : "12343",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eeb"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eeb"
+        }
+      }
+    }, {
+      "externalId" : "1387ca17-15b9-4634-8ddc-2674f5a2d787",
+      "meta" : { },
+      "name" : "domain4",
+      "code" : "12344",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eec"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eec"
+        }
+      }
+    }, {
+      "externalId" : "d9c87cb6-397a-439c-8ca0-48b2ced6a565",
+      "meta" : { },
+      "name" : "domain5",
+      "code" : "12345",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eed"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eed"
+        }
+      }
+    }, {
+      "externalId" : "57657865-7355-4777-ad42-28ea1679a73d",
+      "meta" : { },
+      "name" : "domain6",
+      "code" : "12346",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eee"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eee"
+        }
+      }
+    }, {
+      "externalId" : "28dd029b-89c2-48f6-849a-b4681fdd5a9f",
+      "meta" : { },
+      "name" : "domain7",
+      "code" : "12347",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eef"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5eef"
+        }
+      }
+    }, {
+      "externalId" : "b23ac1ac-2f11-4b01-8459-47317f3fb20b",
+      "meta" : { },
+      "name" : "domain8",
+      "code" : "12348",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ef0"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ef0"
+        }
+      }
+    }, {
+      "externalId" : "e2f3c10f-56ae-4c50-acb7-c0a015ac1ce9",
+      "meta" : { },
+      "name" : "domain9",
+      "code" : "12349",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ef1"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/domains/583d57ff8a182733944e5ef1"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domains"
+    },
+    "profile" : {
+      "href" : "http://{serverHost}:{port}/domain/profile/domains"
+    },
+    "search" : {
+      "href" : "http://{serverHost}:{port}/domain/domains/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 11,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

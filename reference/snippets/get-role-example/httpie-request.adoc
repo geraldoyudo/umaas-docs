@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ http --auth '583d57638a182733944e5ca9:4212' GET 'http://{serverHost}:{port}/domain/roles/583d57638a182733944e5cab' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

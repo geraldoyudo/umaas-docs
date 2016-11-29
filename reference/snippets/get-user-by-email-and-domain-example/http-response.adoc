@@ -1,0 +1,40 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 750
+
+{
+  "externalId" : "1afa7626-de84-4787-a8cb-f2f8c9aa6a84",
+  "meta" : { },
+  "username" : "sample0",
+  "password" : "password0",
+  "email" : "sample0@email.com",
+  "phoneNumber" : "+23480323320",
+  "emailVerified" : false,
+  "phoneNumberVerified" : false,
+  "disabled" : false,
+  "locked" : false,
+  "credentialsExpired" : false,
+  "properties" : { },
+  "groups" : [ ],
+  "roles" : [ ],
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57ac8a182733944e5db5"
+    },
+    "appUser" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57ac8a182733944e5db5"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57ac8a182733944e5db5/domain"
+    }
+  }
+}
+----

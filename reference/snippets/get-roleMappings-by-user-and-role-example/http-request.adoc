@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/roleMappings/search/findByKeyAndRoleId?key=583d58178a182733944e5f87&roleId=583d58178a182733944e5f84&key=583d58178a182733944e5f87&roleId=583d58178a182733944e5f84 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MTc4YTE4MjczMzk0NGU1ZjgzOjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,211 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 6169
+
+{
+  "_embedded" : {
+    "domainAccessCodes" : [ {
+      "externalId" : "467b7c9f-b093-475e-b36f-2c4efcdc2e25",
+      "meta" : { },
+      "code" : "4212",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d36"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d36"
+        }
+      }
+    }, {
+      "externalId" : "d5a83743-2cf0-4541-a220-6578238d6b5e",
+      "meta" : { },
+      "code" : "12340",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d38"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d38"
+        }
+      }
+    }, {
+      "externalId" : "022a4e05-db1e-4b9d-a31f-e0d10a615725",
+      "meta" : { },
+      "code" : "12341",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d39"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d39"
+        }
+      }
+    }, {
+      "externalId" : "deb38ff8-5946-4e9c-8781-8325107593b1",
+      "meta" : { },
+      "code" : "12342",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3a"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3a"
+        }
+      }
+    }, {
+      "externalId" : "47190aec-8cdd-4bbf-9dfd-fd0ad1d69547",
+      "meta" : { },
+      "code" : "12343",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3b"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3b"
+        }
+      }
+    }, {
+      "externalId" : "59de92df-c103-487e-b71f-8dc06b97f9f9",
+      "meta" : { },
+      "code" : "12344",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3c"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3c"
+        }
+      }
+    }, {
+      "externalId" : "bd6faf3a-55a7-4b55-893c-c1945d8df72c",
+      "meta" : { },
+      "code" : "12345",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3d"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3d"
+        }
+      }
+    }, {
+      "externalId" : "3166b241-3903-4ce1-867b-a7e6520598e4",
+      "meta" : { },
+      "code" : "12346",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3e"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3e"
+        }
+      }
+    }, {
+      "externalId" : "e04d9973-a577-4047-9f69-d4d2a3922ac5",
+      "meta" : { },
+      "code" : "12347",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3f"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d3f"
+        }
+      }
+    }, {
+      "externalId" : "88ca31bb-3e48-42eb-a69a-98148aa740b7",
+      "meta" : { },
+      "code" : "12348",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d40"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d40"
+        }
+      }
+    }, {
+      "externalId" : "14c5f7ad-164b-4736-8a4e-9841ea5afbbb",
+      "meta" : { },
+      "code" : "12349",
+      "expiryDate" : null,
+      "notExpired" : true,
+      "notLocked" : true,
+      "enabled" : true,
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d41"
+        },
+        "domainAccessCode" : {
+          "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/583d578d8a182733944e5d41"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodes"
+    },
+    "profile" : {
+      "href" : "http://{serverHost}:{port}/domain/profile/domainAccessCodes"
+    },
+    "search" : {
+      "href" : "http://{serverHost}:{port}/domain/domainAccessCodes/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 11,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

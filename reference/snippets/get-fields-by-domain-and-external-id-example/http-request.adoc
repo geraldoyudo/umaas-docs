@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/fields/search/findByDomainAndExternalId?domain=583d58138a182733944e5f68&externalId=0a5c816b-8950-436b-947e-49bc74c80eb4&domain=583d58138a182733944e5f68&externalId=0a5c816b-8950-436b-947e-49bc74c80eb4 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MTQ4YTE4MjczMzk0NGU1ZjY5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

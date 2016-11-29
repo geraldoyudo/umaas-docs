@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/domainAccessCodes/583d578f8a182733944e5d43 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3OGY4YTE4MjczMzk0NGU1ZDQzOjQyMTI=
+Host: {serverHost}:{port}
+
+----

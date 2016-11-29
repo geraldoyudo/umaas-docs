@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/appUsers/search/findByEmailAndDomain?domain=583d57ab8a182733944e5db3&email=sample0%40email.com&domain=583d57ab8a182733944e5db3&email=sample0%40email.com HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3YWM4YTE4MjczMzk0NGU1ZGI0OjQyMTI=
+Host: {serverHost}:{port}
+
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"value":"something"}' | http --auth '583d578b8a182733944e5d2e:4212' PATCH 'http://{serverHost}:{port}/domain/userFields/583d578b8a182733944e5d32' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

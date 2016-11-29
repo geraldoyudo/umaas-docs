@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"code":"33333"}' | http --auth '583d57928a182733944e5d53:4212' POST 'http://{serverHost}:{port}/domain/domainAccessCodes' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

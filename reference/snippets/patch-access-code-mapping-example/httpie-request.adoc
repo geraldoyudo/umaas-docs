@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"entityId":"NONE"}' | http --auth '583d57cd8a182733944e5e18:4212' PATCH 'http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cd8a182733944e5e19' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

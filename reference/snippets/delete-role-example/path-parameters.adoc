@@ -1,0 +1,8 @@
+./domain/roles/{roleId}
+|===
+|Parameter|Description
+
+|`roleId`
+|The role id
+
+|===

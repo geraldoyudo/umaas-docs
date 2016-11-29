@@ -1,0 +1,8 @@
+./domain/groups/{groupId}
+|===
+|Parameter|Description
+
+|`groupId`
+|The group id
+
+|===

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"meta":{"serial":3},"domain":"/domain/domains/583d58098a182733944e5f2d","name":"nickname","externalId":"field-01","type":"string"}' | http --auth '583d580a8a182733944e5f2e:4212' PUT 'http://{serverHost}:{port}/domain/fields/583d580a8a182733944e5f30' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

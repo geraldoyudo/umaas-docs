@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/userFields HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ODI4YTE4MjczMzk0NGU1ZDBjOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 166
+
+{"field":"/domain/fields/583d57828a182733944e5d13","domain":"/domain/domains/583d57818a182733944e5d0b","user":"/domain/users/583d57828a182733944e5d0f","value":"male"}
+----

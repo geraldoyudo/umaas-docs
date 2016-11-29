@@ -1,0 +1,37 @@
+|===
+|Relation|Description
+
+|`domains`
+|Resource for accessing available domains
+
+|`appUsers`
+|Resource for accessing users
+
+|`fields`
+|Resource for accessing fields
+
+|`groups`
+|Resource for accessing user groups
+
+|`userFields`
+|Resource for accessing custom field values of users
+
+|`userGroups`
+|Resource for accessing groups belonging to users
+
+|`roles`
+|Resource for accessing roles
+
+|`roleMappings`
+|Resource for accessing roles assigned to users and groups
+
+|`domainAccessCodes`
+|Resource for accessing security codes for the api
+
+|`domainAccessCodeMappings`
+|Resource for accessing api usage permissions
+
+|`profile`
+|Resource for accessing api profile
+
+|===

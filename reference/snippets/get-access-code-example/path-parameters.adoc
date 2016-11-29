@@ -1,0 +1,8 @@
+./domain/domainAccessCodes/{accessCodeId}
+|===
+|Parameter|Description
+
+|`accessCodeId`
+|The access code id
+
+|===

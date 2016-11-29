@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/roles/583d57658a182733944e5cb8 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3NjU4YTE4MjczMzk0NGU1Y2I2OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 68
+
+{"domain":"/domain/domains/583d57648a182733944e5cb5","name":"admin"}
+----

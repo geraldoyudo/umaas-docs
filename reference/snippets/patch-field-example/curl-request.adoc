@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/fields/583d58118a182733944e5f51' -i -u '583d58118a182733944e5f4f:4212' -X PATCH -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"domain":"/domain/domains/583d58108a182733944e5f4e","name":"playname"}'
+----

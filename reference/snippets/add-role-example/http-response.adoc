@@ -1,0 +1,30 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/roles/583d57578a182733944e5c8a
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 435
+
+{
+  "externalId" : "ed83f69e-dfc5-465a-8496-a3696d0854e1",
+  "meta" : { },
+  "name" : "admin",
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57578a182733944e5c8a"
+    },
+    "role" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57578a182733944e5c8a"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57578a182733944e5c8a/domain"
+    }
+  }
+}
+----

@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|the role name
+
+|`meta`
+|`Object`
+|additional meta-data for the role
+
+|`externalId`
+|`String`
+|A fully customizable, unique field role id that can be used for search queries
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domainAccessCodeMappings/583d57cd8a182733944e5e19' -i -u '583d57cd8a182733944e5e18:4212' -X PATCH -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"entityId":"NONE"}'
+----

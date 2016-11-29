@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/appUsers/search/findByPhoneNumberAndDomain?domain=583d57988a182733944e5d70&phoneNumber=%2B23480323320&domain=583d57988a182733944e5d70&phoneNumber=%2B23480323320 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3OTk4YTE4MjczMzk0NGU1ZDcxOjQyMTI=
+Host: {serverHost}:{port}
+
+----

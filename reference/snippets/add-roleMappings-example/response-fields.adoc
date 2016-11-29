@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`key`
+|`String`
+|User or Group Id
+
+|`type`
+|`String`
+|Mapping type
+
+|`meta`
+|`Object`
+|additional meta-data for the user
+
+|`externalId`
+|`String`
+|A fully customizable, unique role user id that can be used for search queries
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

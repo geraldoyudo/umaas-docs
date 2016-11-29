@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/domainAccessCodeMappings HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3Y2Y4YTE4MjczMzk0NGU1ZTFmOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 175
+
+{"enforced":true,"entityType":"com.gerald.umaas.domain.entities.AppUser","accessCode":"domains/domainAccessCodes/583d57cf8a182733944e5e1f","entityId":"ALL","priviledge":"ALL"}
+----

@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"domain":"/domain/domains/583d57d48a182733944e5e2a","name":"admin"}' | http --auth '583d57d48a182733944e5e2b:4212' POST 'http://{serverHost}:{port}/domain/groups' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

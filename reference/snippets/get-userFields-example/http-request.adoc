@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/userFields HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3N2U4YTE4MjczMzk0NGU1Y2ZkOjQyMTI=
+Host: {serverHost}:{port}
+
+----

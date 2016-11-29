@@ -1,0 +1,16 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`role`
+|link to the role
+
+|`roleMapping`
+|same as self
+
+|`domain`
+|link to the domain of the role mapping entry
+
+|===

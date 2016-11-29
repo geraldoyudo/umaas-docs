@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/roleMappings HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MjU4YTE4MjczMzk0NGU1ZmNiOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 134
+
+{"role":"/domain/roles/583d58258a182733944e5fd3","domain":"/domain/domains/583d58248a182733944e5fca","key":"583d58258a182733944e5fce"}
+----

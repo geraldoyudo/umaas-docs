@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/fields/583d58168a182733944e5f78 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MTY4YTE4MjczMzk0NGU1Zjc2OjQyMTI=
+Host: {serverHost}:{port}
+
+----

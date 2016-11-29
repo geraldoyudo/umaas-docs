@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/appUsers/583d57af8a182733944e5dc3 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3YWY4YTE4MjczMzk0NGU1ZGMxOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 184
+
+{"password":"4321","phoneNumber":"+2348078229931","domain":"/domain/domains/583d57ae8a182733944e5dc0","email":"smith_0@mail.com","properties":{"nickname":"micky"},"username":"smith_o"}
+----

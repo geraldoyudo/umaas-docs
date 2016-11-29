@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domains/583d58008a182733944e5ef2' -i -u '583d58018a182733944e5ef3:4212' -X DELETE -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8'
+----

@@ -1,0 +1,19 @@
+|===
+|Relation|Description
+
+|`self`
+|Link to the resource
+
+|`user`
+|Link to the user
+
+|`group`
+|Link to the group
+
+|`domain`
+|Link to the domain
+
+|`userGroup`
+|Same as self
+
+|===

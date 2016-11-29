@@ -1,0 +1,179 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 5250
+
+{
+  "_embedded" : {
+    "roles" : [ {
+      "externalId" : "9ca60eac-4cac-4876-b407-a70c5f1e41cb",
+      "meta" : { },
+      "name" : "role 0",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc4"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc4"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc4/domain"
+        }
+      }
+    }, {
+      "externalId" : "fa959d60-c377-44c6-b3c3-3a17e3dbc5a3",
+      "meta" : { },
+      "name" : "role 1",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc5"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc5"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc5/domain"
+        }
+      }
+    }, {
+      "externalId" : "120dcfcc-396d-4d3c-97af-49d98dc16fb2",
+      "meta" : { },
+      "name" : "role 2",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc6"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc6"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc6/domain"
+        }
+      }
+    }, {
+      "externalId" : "6a88fd51-75d6-412a-a6cb-657bca6913c8",
+      "meta" : { },
+      "name" : "role 3",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc7"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc7"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc7/domain"
+        }
+      }
+    }, {
+      "externalId" : "c284329c-b649-4e10-99cd-93b25ce8e6d9",
+      "meta" : { },
+      "name" : "role 4",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc8"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc8"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc8/domain"
+        }
+      }
+    }, {
+      "externalId" : "2d54f630-2047-46a8-9fa6-fdce67359372",
+      "meta" : { },
+      "name" : "role 5",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc9"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc9"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cc9/domain"
+        }
+      }
+    }, {
+      "externalId" : "934956c6-e21d-4d95-9525-ad9ac7d2d917",
+      "meta" : { },
+      "name" : "role 6",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cca"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cca"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5cca/domain"
+        }
+      }
+    }, {
+      "externalId" : "bb1335e1-cf24-487f-96e2-7936d233c971",
+      "meta" : { },
+      "name" : "role 7",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccb"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccb"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccb/domain"
+        }
+      }
+    }, {
+      "externalId" : "39c3f52e-49d1-4077-ace7-b5a8906bbfe1",
+      "meta" : { },
+      "name" : "role 8",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccc"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccc"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccc/domain"
+        }
+      }
+    }, {
+      "externalId" : "2579a660-2418-4fd3-9c3f-9e023500bf57",
+      "meta" : { },
+      "name" : "role 9",
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccd"
+        },
+        "role" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccd"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/roles/583d57688a182733944e5ccd/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 10,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

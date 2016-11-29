@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/roleMappings/583d581a8a182733944e5f9a' -i -u '583d581a8a182733944e5f95:4212' -X PATCH -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"role":"/domain/roles/583d581a8a182733944e5f96"}'
+----

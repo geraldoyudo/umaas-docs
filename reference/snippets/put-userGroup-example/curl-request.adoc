@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/userGroups/583d57f48a182733944e5eb5' -i -u '583d57f48a182733944e5eb1:4212' -X PUT -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"meta":{"key":"random"},"externalId":"ug-101"}'
+----

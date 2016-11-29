@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/userFields/search/findByUserId?userId=583d57898a182733944e5d29&userId=583d57898a182733944e5d29 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ODk4YTE4MjczMzk0NGU1ZDI2OjQyMTI=
+Host: {serverHost}:{port}
+
+----

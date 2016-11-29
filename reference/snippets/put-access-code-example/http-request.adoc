@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/domainAccessCodes/583d57908a182733944e5d46 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3OTA4YTE4MjczMzk0NGU1ZDQ2OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 48
+
+{"code":"32233344","meta":{"label":"executive"}}
+----

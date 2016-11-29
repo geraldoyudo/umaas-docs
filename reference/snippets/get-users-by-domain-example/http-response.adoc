@@ -1,0 +1,289 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 8836
+
+{
+  "_embedded" : {
+    "appUsers" : [ {
+      "externalId" : "1b8c1a5c-961d-47fa-beb8-c301bcd41738",
+      "meta" : { },
+      "username" : "sample0",
+      "password" : "password0",
+      "email" : "sample0@email.com",
+      "phoneNumber" : "+23480323320",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d7f"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d7f"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d7f/domain"
+        }
+      }
+    }, {
+      "externalId" : "15713e54-1a03-4833-86d6-358062264446",
+      "meta" : { },
+      "username" : "sample1",
+      "password" : "password1",
+      "email" : "sample1@email.com",
+      "phoneNumber" : "+23480323321",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d80"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d80"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d80/domain"
+        }
+      }
+    }, {
+      "externalId" : "76c314ff-06aa-4dba-8258-3f005a7519c5",
+      "meta" : { },
+      "username" : "sample2",
+      "password" : "password2",
+      "email" : "sample2@email.com",
+      "phoneNumber" : "+23480323322",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d81"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d81"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d81/domain"
+        }
+      }
+    }, {
+      "externalId" : "e574fb6c-435c-4485-a48b-f0c6f561e414",
+      "meta" : { },
+      "username" : "sample3",
+      "password" : "password3",
+      "email" : "sample3@email.com",
+      "phoneNumber" : "+23480323323",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d82"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d82"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d82/domain"
+        }
+      }
+    }, {
+      "externalId" : "1f223204-fc21-425e-bb50-9a61504cc97f",
+      "meta" : { },
+      "username" : "sample4",
+      "password" : "password4",
+      "email" : "sample4@email.com",
+      "phoneNumber" : "+23480323324",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d83"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d83"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d83/domain"
+        }
+      }
+    }, {
+      "externalId" : "802fa310-ff36-4b1b-be3d-b34b789af2d7",
+      "meta" : { },
+      "username" : "sample5",
+      "password" : "password5",
+      "email" : "sample5@email.com",
+      "phoneNumber" : "+23480323325",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d84"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d84"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d84/domain"
+        }
+      }
+    }, {
+      "externalId" : "122ece0b-a82e-48bd-88ab-04fffab4227e",
+      "meta" : { },
+      "username" : "sample6",
+      "password" : "password6",
+      "email" : "sample6@email.com",
+      "phoneNumber" : "+23480323326",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d85"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d85"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d85/domain"
+        }
+      }
+    }, {
+      "externalId" : "f164e64e-7da6-44ba-a5f2-46ef2d670b92",
+      "meta" : { },
+      "username" : "sample7",
+      "password" : "password7",
+      "email" : "sample7@email.com",
+      "phoneNumber" : "+23480323327",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d86"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d86"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d86/domain"
+        }
+      }
+    }, {
+      "externalId" : "bedaa4be-d52e-43f6-bd64-0a3f57ab444e",
+      "meta" : { },
+      "username" : "sample8",
+      "password" : "password8",
+      "email" : "sample8@email.com",
+      "phoneNumber" : "+23480323328",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d87"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d87"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d87/domain"
+        }
+      }
+    }, {
+      "externalId" : "493fae3c-dc29-4238-a8cd-cb9477336341",
+      "meta" : { },
+      "username" : "sample9",
+      "password" : "password9",
+      "email" : "sample9@email.com",
+      "phoneNumber" : "+23480323329",
+      "emailVerified" : false,
+      "phoneNumberVerified" : false,
+      "disabled" : false,
+      "locked" : false,
+      "credentialsExpired" : false,
+      "properties" : { },
+      "groups" : [ ],
+      "roles" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d88"
+        },
+        "appUser" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d88"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/appUsers/583d579b8a182733944e5d88/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 10,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

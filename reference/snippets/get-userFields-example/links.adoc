@@ -1,0 +1,13 @@
+|===
+|Relation|Description
+
+|`self`
+|Link to the resource
+
+|`profile`
+|Link to access resource profile
+
+|`search`
+|Link to access resource search queries
+
+|===

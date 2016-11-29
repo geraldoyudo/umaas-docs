@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/userGroups/583d57fc8a182733944e5ed5 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZmM4YTE4MjczMzk0NGU1ZWQxOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 51
+
+{"group":"/domain/groups/583d57fc8a182733944e5ed2"}
+----

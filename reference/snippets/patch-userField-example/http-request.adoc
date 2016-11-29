@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PATCH /domain/userFields/583d578b8a182733944e5d32 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3OGI4YTE4MjczMzk0NGU1ZDJlOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 21
+
+{"value":"something"}
+----

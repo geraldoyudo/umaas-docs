@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/userFields/583d57778a182733944e5ce9 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3Nzc4YTE4MjczMzk0NGU1Y2U1OjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 67
+
+{"meta":{"key":"random"},"externalId":"uf-101","value":"something"}
+----

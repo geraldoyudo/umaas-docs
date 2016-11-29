@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`value`
+|`String`
+|the value of the field
+
+|`meta`
+|`Object`
+|additional meta-data for the user
+
+|`externalId`
+|`String`
+|A fully customizable, unique field user id that can be used for search queries
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

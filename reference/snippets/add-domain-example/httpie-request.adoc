@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"code":"1111","name":"test.domain.com","properties":{"url":"http://test.domain.com"}}' | http --auth '583d58028a182733944e5f00:4212' POST 'http://{serverHost}:{port}/domain/domains' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

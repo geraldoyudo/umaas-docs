@@ -1,0 +1,16 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`group`
+|same as self
+
+|`parent`
+|link to the parent group
+
+|`domain`
+|link to the group's domain
+
+|===

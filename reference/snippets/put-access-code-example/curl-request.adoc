@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ curl 'http://{serverHost}:{port}/domain/domainAccessCodes/583d57908a182733944e5d46' -i -u '583d57908a182733944e5d46:4212' -X PUT -H 'Accept: application/hal+json' -H 'Content-Type: application/json;charset=UTF-8' -d '{"code":"32233344","meta":{"label":"executive"}}'
+----

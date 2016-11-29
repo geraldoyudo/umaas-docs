@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+GET /domain/userGroups/583d57f28a182733944e5ead HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZjI4YTE4MjczMzk0NGU1ZWE5OjQyMTI=
+Host: {serverHost}:{port}
+
+----

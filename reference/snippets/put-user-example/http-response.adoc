@@ -1,0 +1,45 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/appUsers/583d57b78a182733944e5dec
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 774
+
+{
+  "externalId" : "myCustomId0000",
+  "meta" : {
+    "serialNo" : 0
+  },
+  "username" : "smith_o",
+  "password" : "4321",
+  "email" : "smith_0@mail.com",
+  "phoneNumber" : "+2348078229931",
+  "emailVerified" : true,
+  "phoneNumberVerified" : true,
+  "disabled" : false,
+  "locked" : false,
+  "credentialsExpired" : false,
+  "properties" : {
+    "nickname" : "micky"
+  },
+  "groups" : [ ],
+  "roles" : [ ],
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57b78a182733944e5dec"
+    },
+    "appUser" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57b78a182733944e5dec"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/appUsers/583d57b78a182733944e5dec/domain"
+    }
+  }
+}
+----

@@ -1,0 +1,33 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 615
+
+{
+  "externalId" : "67e72af6-66ae-4bc4-8ec3-a42678f169ce",
+  "meta" : { },
+  "type" : "USER",
+  "key" : "583d581a8a182733944e5f99",
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581a8a182733944e5f9a"
+    },
+    "roleMapping" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581a8a182733944e5f9a"
+    },
+    "role" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581a8a182733944e5f9a/role"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/roleMappings/583d581a8a182733944e5f9a/domain"
+    }
+  }
+}
+----

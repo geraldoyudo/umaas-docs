@@ -1,0 +1,9 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+DELETE /domain/roleMappings/583d58238a182733944e5fc7 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MjM4YTE4MjczMzk0NGU1ZmMyOjQyMTI=
+Host: {serverHost}:{port}
+
+----

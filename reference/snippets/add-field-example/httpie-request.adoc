@@ -1,0 +1,4 @@
+[source,bash,subs="attributes"]
+----
+$ echo '{"domain":"/domain/domains/583d580b8a182733944e5f3a","name":"nickname","type":"string"}' | http --auth '583d580b8a182733944e5f3b:4212' POST 'http://{serverHost}:{port}/domain/fields' 'Accept:application/hal+json' 'Content-Type:application/json;charset=UTF-8'
+----

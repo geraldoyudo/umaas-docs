@@ -1,0 +1,64 @@
+|===
+|Path|Type|Description
+
+|`username`
+|`String`
+|the user's username
+
+|`password`
+|`String`
+|the user's password
+
+|`email`
+|`String`
+|the user's email
+
+|`phoneNumber`
+|`String`
+|the user's phoneNumber
+
+|`disabled`
+|`Boolean`
+|If the user's account has been disabled
+
+|`locked`
+|`Boolean`
+|If the user's account has been locked
+
+|`credentialsExpired`
+|`Boolean`
+|If the user's login credentials have expired
+
+|`properties`
+|`Object`
+|an object holding custom properties specified by the domain
+
+|`meta`
+|`Object`
+|additional meta-data for the user
+
+|`externalId`
+|`String`
+|A fully customizable, unique field user id that can be used for search queries
+
+|`roles`
+|`Array`
+|Domain defined roles that the user has.
+
+|`groups`
+|`Array`
+|Domain defined groups that the user is assigned to.
+
+|`emailVerified`
+|`Boolean`
+|Whether user's email has been verified
+
+|`phoneNumberVerified`
+|`Boolean`
+|Whether user's phone number has been verified
+
+|`_links`
+|`Object`
+|Resource links
+
+|===

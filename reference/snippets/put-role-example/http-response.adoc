@@ -1,0 +1,30 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Location: http://{serverHost}:{port}/domain/roles/583d57658a182733944e5cb8
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 402
+
+{
+  "externalId" : null,
+  "meta" : null,
+  "name" : "admin",
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57658a182733944e5cb8"
+    },
+    "role" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57658a182733944e5cb8"
+    },
+    "domain" : {
+      "href" : "http://{serverHost}:{port}/domain/roles/583d57658a182733944e5cb8/domain"
+    }
+  }
+}
+----

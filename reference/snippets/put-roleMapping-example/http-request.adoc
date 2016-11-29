@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+PUT /domain/roleMappings/583d58198a182733944e5f91 HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU4MTk4YTE4MjczMzk0NGU1ZjhjOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 94
+
+{"role":"domain/roles/583d58198a182733944e5f8d","meta":{"key":"random"},"externalId":"rm-101"}
+----

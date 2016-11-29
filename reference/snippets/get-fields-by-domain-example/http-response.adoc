@@ -1,0 +1,219 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:-1
+Content-Type: application/hal+json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 6442
+
+{
+  "_embedded" : {
+    "fields" : [ {
+      "externalId" : "4c03c2ed-d32d-40f9-88ab-11bb8500dc15",
+      "meta" : { },
+      "name" : "field 0",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5d"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5d"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5d/domain"
+        }
+      }
+    }, {
+      "externalId" : "5699bbfd-385c-4610-bb92-c5b2c3d0eba8",
+      "meta" : { },
+      "name" : "field 1",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5e"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5e"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5e/domain"
+        }
+      }
+    }, {
+      "externalId" : "c8892e0c-0642-4b77-b04f-ece2d4348455",
+      "meta" : { },
+      "name" : "field 2",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5f"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5f"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f5f/domain"
+        }
+      }
+    }, {
+      "externalId" : "2d65b16f-225e-4798-9bcc-277de33085b5",
+      "meta" : { },
+      "name" : "field 3",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f60"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f60"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f60/domain"
+        }
+      }
+    }, {
+      "externalId" : "05e937d2-28c2-40b3-8abb-fc3f5e0156d6",
+      "meta" : { },
+      "name" : "field 4",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f61"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f61"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f61/domain"
+        }
+      }
+    }, {
+      "externalId" : "bc10c801-ea0d-4123-83b7-b4aed518aa37",
+      "meta" : { },
+      "name" : "field 5",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f62"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f62"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f62/domain"
+        }
+      }
+    }, {
+      "externalId" : "dbc56ac3-0798-4e2e-83e3-08e10bfd4944",
+      "meta" : { },
+      "name" : "field 6",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f63"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f63"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f63/domain"
+        }
+      }
+    }, {
+      "externalId" : "9b68a0ed-c1f0-40c4-a3c8-b3290d86d707",
+      "meta" : { },
+      "name" : "field 7",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f64"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f64"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f64/domain"
+        }
+      }
+    }, {
+      "externalId" : "99013ff8-6f7a-4791-a376-e337c3af4929",
+      "meta" : { },
+      "name" : "field 8",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f65"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f65"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f65/domain"
+        }
+      }
+    }, {
+      "externalId" : "bbf04f36-1671-4ffc-afe0-fe28eb76bed9",
+      "meta" : { },
+      "name" : "field 9",
+      "mandatory" : true,
+      "registrationItem" : true,
+      "type" : "string",
+      "properties" : { },
+      "_links" : {
+        "self" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f66"
+        },
+        "field" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f66"
+        },
+        "domain" : {
+          "href" : "http://{serverHost}:{port}/domain/fields/583d58128a182733944e5f66/domain"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://{serverHost}:{port}/domain/fields/search/findByDomain"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 10,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+----

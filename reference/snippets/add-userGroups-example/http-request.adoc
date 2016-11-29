@@ -1,0 +1,11 @@
+[source,http,options="nowrap",subs="attributes"]
+----
+POST /domain/userGroups HTTP/1.1
+Accept: application/hal+json
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic NTgzZDU3ZjE4YTE4MjczMzk0NGU1ZTlmOjQyMTI=
+Host: {serverHost}:{port}
+Content-Length: 151
+
+{"domain":"/domain/domains/583d57ef8a182733944e5e9e","user":"/domain/users/583d57f18a182733944e5ea2","group":"/domain/groups/583d57f18a182733944e5ea6"}
+----

@@ -1,0 +1,10 @@
+|===
+|Relation|Description
+
+|`self`
+|link to resource
+
+|`domain`
+|same as self
+
+|===
